@@ -1,0 +1,546 @@
+@media (max-width: 1199px)
+{
+    header .header_wrap .hdr_logo{
+        margin: 5px 0;
+    }
+    
+    header .header_wrap ul{
+        display: inline-flex;
+        justify-content: flex-end;
+    }
+    header .header_wrap .nav_bar ul li{
+        margin: 0 7px;
+    }
+    
+    .banner .banner_text h1{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 12px;
+    }
+    
+    .banner .banner_text h3{
+        font-size: 17px;
+        word-spacing: 0px;
+        line-height: 23px;
+    }
+    .banner .sub_banner_wrapper .item{
+        margin-bottom: 20px;
+        font-size: 15px;
+        
+    }
+    .banner{
+        background-size: cover;
+        padding-bottom: 200px;
+    }
+    
+    .banner .review_wrapper{
+        margin-top: 30px;
+    }
+    
+    .banner .review_wrapper .review_box_one {
+        margin: 0 3px;
+    }
+    
+    .banner .quote_form form input{
+        width: 330px;
+        margin: 20px 17px 0px;
+    }
+    
+    #txtarea{
+        width: 330px;
+    }
+    
+    .banner .quote_form .frm_btn_wrapper i{
+        margin-right: -10%;
+    }
+    
+    .banner .review_wrapper .review_box_one p{
+        font-size: 11px;
+    }
+    
+    .banner .review_wrapper .review_box_one span{
+        font-size: 11px;
+    }
+    .banner .quote_form .upper_form p {
+        font-size: 25px;
+    }
+    
+    .cover_serv .cover_hdng {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .cover_serv .cover_info h5{
+        font-size: 22px;
+    }
+    
+    .cover_serv {
+        background-size: cover;
+        padding-bottom: 250px;
+    }
+    .prof_team_sec h3{
+        font-size: 25px;
+    }
+    
+    .rated h5{
+        font-size: 25px;
+    }
+    
+    .faq h3 {
+        font-size: 30px;
+    }
+    
+    .foo .foo_wrapper {
+        transform: translateY(70%);
+    }
+    .foo {
+        background-size: cover;
+        padding-bottom: 400px;
+    }
+    
+    .foo h5 {
+        font-size: 22px;
+    }
+    .foo .foo_hdng_one {
+        font-size: 14px;
+    }
+    
+    .foo_img_wrapper {
+        display: flex;
+    }
+    
+    .payment_wrapper {
+        display: flex;
+    }
+    .foo .foo_hdng_one {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 991px){
+/* abstract */
+    header .header_wrap ul {
+        display: block;
+        margin: 70px 10px 0;
+        
+    }
+    header .header_wrap .nav_bar ul li {
+        margin: 20px 10px;
+        display: block;
+    }
+/* abstract */
+
+    .header_wrap .nav_bar .menu_wrap{
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        overflow-x: hidden;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        padding-top: 0px;
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    }
+    .header_wrap .nav_bar .menu_wrap .closebtn{
+        position: absolute;
+        top: 30px;
+        right: 35px;
+        font-size: 45px;
+        color: #000;
+        margin: 0;
+    }
+    
+    .header_wrap .nav_bar .nav-button{
+            background-color: transparent;
+            border: none;
+            padding: 10px;
+            color: #000;
+            font-size: 25px;
+            position: absolute;
+            right: 0;
+            top: 16px;
+    }   
+    .upper_header .mail_info span {
+        margin: 0 5px;
+        color: #fff;
+    }
+    
+    .banner .quote_form .upper_form p {
+        font-size: 20px;
+    }
+    
+    .banner .quote_form form input {
+        width: 238px;
+        margin: 20px 17px 0px;
+        max-width: 100%;
+    }
+    #txtarea {
+        width: 238px;
+    }
+    .banner .quote_form .frm_btn_wrapper .submit {
+        max-width: 100%;
+        width: 140px;
+        border-radius: 6px;
+        background-color: #3390ff;
+        text-align: center;
+        color: #fff;
+        padding: 0px 10px;
+        text-transform: capitalize;
+        font-size: 15px;
+    }
+
+    .banner .review_wrapper .review_box_one {
+        background-image: linear-gradient(41deg, #072969 0%, #0d1f41 100%);
+        /* width: 132px; */
+        max-width: 30%;
+        height: 135px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 12px 23px;
+        line-height: 18px;
+    }
+
+    #main #faq .card .card-header .btn-header-link:after {
+        content: "\f107";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        float: right;
+        background-color: #89b8f1;
+        padding: 2px 9px;
+        color: #ffa233;
+    }
+    #main #faq .card .card-header .btn-header-link {
+        color: #000;
+        display: block;
+        text-align: left;
+        color: #222;
+        padding: 15px 7px;
+    }
+    .foo h5 {
+        font-size: 16px;
+    }
+    .foo ul li a {
+        color: #fff;
+        text-transform: capitalize;
+        margin: 5px 0;
+    }
+    .foo .contact_wrapper {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .foo .contact_wrapper a {
+        color: #fff;
+        padding-left: 7px;
+        display: inline-block;
+    }
+    .foo .foo_img_wrapper img{
+        max-width: 40%;
+    }
+
+    .banner .review_wrapper {
+        display: flex;
+     
+    }
+
+    .choose_us .choose_us_hdng .services_list .serv_item {
+        display: flex;
+        align-items: baseline;
+        margin: 14px 0;
+    }
+    .cover_serv .cover_hdng {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .cover_serv .cover_info h5 {
+        font-size: 18px;
+    }
+    .cover_serv .cover_info p {
+        font-size: 12px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .prof_team_sec h3 {
+        font-size: 22px;
+    }
+    .rated h5 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    .rated .rated_wrapper .rate_testi {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .faq h3 {
+        font-size: 25px;
+    }
+    .copyright .foo_last_sec .wp img {
+        max-width: 100%;
+        width: 35%;
+    }
+    .copyright .foo_last_sec .lady_foo img {
+        max-width: 100%;
+        width: 50%;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 767px){
+    .upper_header .mail_info a {
+        padding: 8px 0 0;
+        font-size: 13px;
+    }
+    .upper_header .uppr_hdr_btn_wrapper .sign {
+        margin-right: 2%;
+    }
+
+    .upper_header .uppr_hdr_btn_wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: -22px -60px 8px;
+    }
+
+    .upper_header .uppr_hdr_btn_wrapper a {
+        font-size: 14px;
+        max-width: 100%;
+        width: 100px;
+    
+    }
+
+    .banner .quote_form {
+        background-color: #fff;
+        /* width: 479px; */
+        /* height: 550px; */
+        border-radius: 9px;
+        max-width: 100%;
+        margin-top: 10%;
+        position: relative;
+        z-index: 5;
+        /* display: block; */
+        /* margin: 0 auto; */
+    }
+    .banner .quote_form form input {
+       width: 438px;
+        margin: 20px 17px 0px;
+        max-width: 100%;
+    }
+    #txtarea {
+        width: 438px;
+    }
+    .banner .quote_form .frm_btn_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px 25px;
+    }
+    .banner .quote_form .frm_btn_wrapper i {
+        margin-right: -47%;
+    }
+    .banner {
+        background-size: cover;
+        padding-bottom: 350px;
+    }
+    .prof_team_sec .team_wrapper .team_info {
+        margin-bottom: 20px;
+        max-width: 369px;
+    }
+    .rated .rated_wrapper {
+        background-color: #fff;
+        width: 100%;
+        max-width: 100%;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #sample_wrapper .btn_wrapper a {
+        text-transform: uppercase;
+        background-color: transparent;
+        border: 1px solid #3390ff;
+        margin: 10px 10px;
+        display: block;
+        color: #3390ff;
+        width: 152px;
+        max-width: 100%;
+        min-height: 35px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 10px;
+    }
+    .foo {
+        background-size: cover;
+        padding-bottom: 750px;
+    }
+
+    .foo .foo_wrapper {
+        transform: translateY(50%);
+    }
+
+    .foo h5 {
+        font-size: 23px;
+    }
+
+    .foo .foo_hdng_one {
+        font-size: 23px;
+        margin: 17px 0;
+    }
+    .foo .foo_wrapper .offset-sm-1 {
+        margin-left: 0.333333%;
+    }
+    .cover_serv {
+        background-size: cover;
+        padding-bottom: 300px;
+    }
+/* signin btn */
+    .header_wrap .nav_bar .menu_wrap #uppr_hdr_btn_wrapper{
+        display: block;
+        margin: 8px 4px;
+    }
+    .header_wrap .nav_bar .menu_wrap #uppr_hdr_btn_wrapper a{
+        background-color: #ffa233;
+        max-width: 100%;
+        width: 110px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    
+    .header_wrap .nav_bar .menu_wrap
+    #uppr_hdr_btn_wrapper .sign{
+        margin-right: 0%;
+    }
+    .upper_header .uppr_hdr_btn_wrapper{
+        display: none;
+
+    }
+    /* signin btn */
+    .copyright .copy{
+        text-align: center;
+    }
+}
+@media (max-width: 575px){
+    .banner .quote_form form input {
+        width: 410px;
+        margin: 20px 17px 0px;
+        max-width: 100%;
+    }
+    #txtarea {
+        width: 410px;
+    }
+    .assignment h2 {
+        text-transform: capitalize;
+        color: #000;
+        font-size: 30px;
+        text-align: center;
+        margin: 30px 0;
+        font-weight: bold;
+        font-style: var(--monte_font);
+    }
+
+}
+@media (max-width: 425px){
+    .banner .review_wrapper {
+        display: block;
+        margin: 10px 20px;
+    }
+    .banner .review_wrapper .review_box_one {
+        background-image: linear-gradient(41deg, #072969 0%, #0d1f41 100%);
+        /* width: 132px; */
+        max-width: 30%;
+        height: 135px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 12px 23px;
+        line-height: 18px;
+        margin: 0 0 10px;
+    }
+    .banner .quote_form form input {
+        width: 350px;
+        margin: 20px 17px 0px;
+        max-width: 100%;
+    }
+    #txtarea {
+        width: 350px;
+    }
+    #sample_wrapper {
+        max-width: 100%;
+    }
+    #sample_wrapper .faq_img_one {
+        max-width: 100%;
+        width: 106px;
+        /* min-height: 150px; */
+        padding: 20px;
+    }
+}
+@media (max-width: 420px){
+    .assignment h2 {
+        text-transform: capitalize;
+        color: #000;
+        font-size: 20px;
+        text-align: center;
+        margin: 30px 0;
+        font-weight: bold;
+        font-style: var(--monte_font);
+    }
+    .choose_us .choose_us_hdng h4 {
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: var(--monte_font);
+        font-size: 20px;
+        color: #000;
+    }
+
+    .prof_team_sec .prof_team_uppr_hdng {
+        text-transform: uppercase;
+        color: #d0d0d0;
+        font-size: 11px;
+        font-weight: bold;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .choose_us .choose_uppr_hdng {
+        color: #d0d0d0;
+        position: relative;
+        font-size: 12px;
+        text-transform: capitalize;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+    }
+    .assignment .assing_title {
+        color: #d0d0d0;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner {
+        background-size: cover;
+        padding-bottom: 550px;
+    }
+
+
+
+
+
+
+}
